@@ -1,0 +1,15 @@
+Package: scAnnotationBot
+Type: Package
+Title: Annotates cell clusters in single-cell sequencing analysis.
+Version: 1.0.0
+Author: Yikun Gao
+Maintainer: The package maintainer <www2405637072@163.com>
+Description: This package annotates cell clusters in single-cell sequencing analysis by using ERNIEBot or DashScope models.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a license
+Encoding: UTF-8
+LazyData: true
+Imports: httr, jsonlite
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
